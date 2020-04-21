@@ -27,7 +27,7 @@ void cvtColor_src(Mat &src, Mat &src_gray)
 
 int main(int artc, char** argv) {
 	// Mat src = imread("D:/vcprojects/images/test.png");
-	Mat src = imread("/home/lyx/Pictures/522.jpg", IMREAD_GRAYSCALE);
+	Mat src = imread("./Pictures/522.jpg", IMREAD_GRAYSCALE);
 
 	if (src.empty()) {
 		printf("could not load image...\n");
